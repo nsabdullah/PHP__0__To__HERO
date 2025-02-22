@@ -11,10 +11,11 @@ $globals = $GLOBALS;
 // print_r($GLOBALS);
 
 $get = $_GET;
-print_r($get);
+// print_r($get);
 
 
-
+$request = $_REQUEST;
+print_r($request);
 
 
 // http://localhost/PHP__0__To__HERO/02_02-array_&_globals/server_info.php
